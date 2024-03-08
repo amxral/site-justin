@@ -14,50 +14,6 @@
     font-style: normal;
 }
 
-@media screen and (max-width: 768px) {
-
-    section.bio > div.image-top > img#justin {
-        padding-left: 45px;
-        padding-right: 45px;
-    }
-
-    .parte2 {
-        max-width: 100vh;
-    }
-    img.image {
-        min-width: 280px;
-        max-width: 280px;
-        display: inline-block;
-        margin: auto;
-        margin: 10px;
-    }
-    footer {
-        text-align: center;
-        background-color: #120A1F;
-        color: white;
-        padding: 8px;
-        position: absolute;
-        min-width: 95.5vw;
-    }
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: var(--cor01);
-        min-width: 300px;
-        min-height: 100vh;
-        position: relative;
-    }
-    div#drew img{
-        width: 300px;
-    }
-    
-    div#drew a {
-        width: 300px;
-        text-decoration: none;
-        color: black;
-        font-family: 'basic', Arial, Helvetica, sans-serif;
-    }
-}
-
 :root {
     --cor01: #A575FF;
     --cor02: #894DD1;
@@ -173,8 +129,8 @@ main p {
 section.store {
     margin-top: 20px;
     margin-bottom: 100vh;
-    min-width: 300px;
-    max-width: 1020px;
+    min-width: 320px;
+    max-width: 1040px;
 }
 
 section.store > h1 {
@@ -232,6 +188,10 @@ div#drew p.preco {
 div#drew img{
     width: 15vw;
     margin-left: 8%;
+}
+
+div#drew {
+    text-align: center;
 }
 
 /* RODAÉ */
