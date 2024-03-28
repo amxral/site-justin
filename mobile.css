@@ -77,14 +77,14 @@
     div#video {
         position: relative;
         padding: 20px;
-        max-width: 37%;
-        height: 0;
+        width: 90%;
+        height: 90%;
         padding-bottom: 57%;
     }
-    div#video > video {
+    div#video > iframe {
         position: absolute;
-        left: 20%;
-        width: 7%;
-        height: 82%;
+        width: 50%;
+        height: 50%;
+        left: 5%;
     }
 }
