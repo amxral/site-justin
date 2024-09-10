@@ -68,10 +68,13 @@ nav > a:hover {
 
 /* CORPO DO SITE */
 
-.image-top { 
+.first {
+    display: flex;
+}
+img#justin {
+    width: 200px;
+    height: 200px;
     display: inline;
-    vertical-align: top;
-    
 }
 section.bio {
     background: #FFFFFF;
@@ -94,18 +97,12 @@ section {
 
 .conteudo {
     display: inline-block;
-    max-width: 100vh;
+    max-width: 100%;
     margin: 20px;
 }
 .parte2 {
     max-width: 100vw;
     text-align: center;
-    margin: 20px;
-}
-img.image {
-    max-width: 50vw;
-    display: inline-block;
-    margin: auto;
     margin: 20px;
 }
 
@@ -222,6 +219,6 @@ footer {
     text-align: center;
     background-color: #120A1F;
     color: white;
-    padding: 8px;
-    height: 20px;
+    padding: 8px 0px;
+    height: 15px;
 }
