@@ -68,8 +68,12 @@ nav > a:hover {
 
 /* CORPO DO SITE */
 
-.first {
+.pai {
     display: flex;
+    flex-flow: row wrap;
+}
+.filho {
+    flex: auto;
 }
 img#justin {
     width: 200px;
@@ -96,7 +100,7 @@ section {
 }
 
 .conteudo {
-    display: inline-block;
+    display: block;
     max-width: 100%;
     margin: 20px;
 }
