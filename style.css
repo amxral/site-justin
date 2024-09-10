@@ -74,6 +74,7 @@ nav > a:hover {
 }
 .filho {
     flex: auto;
+    display: flex;
 }
 img#justin {
     width: 200px;
@@ -190,7 +191,12 @@ div#drew img{
     width: 15vw;
     margin-left: 8%;
 }
-
+.image {
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+}
 div#drew {
     text-align: center;
 }
@@ -205,10 +211,9 @@ div#video {
     padding-bottom: 40%;
 }
 div#video > iframe {
-    position: absolute;
-    left: 16%;
-    width: 90%;
-    height: 90%;
+    display: block;
+    margin: auto;
+    padding: 25px 0px;
 }
 
 .company {
@@ -225,4 +230,14 @@ footer {
     color: white;
     padding: 8px 0px;
     height: 15px;
+}
+
+@media screen and (max-width: 899px) {
+    .filho {
+        display: block;
+    }
+    img#justin {
+        display: block;
+        margin: auto;
+    }
 }
